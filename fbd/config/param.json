@@ -1,0 +1,12 @@
+{
+    "logger": "enable",
+    "log_config" : "logconfig.yaml",
+    "topo_xml": "OptNetSampleModel100GHz_tpl.xml",
+    "glpk_dir": "glpk",
+    "db_dir": "db",
+    "nrm_host": "localhost",
+    "nrm_port": 8081,
+    "pf_tmp_model": "pf-template.model",
+    "solvec_tmp_model": "solvec-template.model",
+    "num_comps": 5
+}

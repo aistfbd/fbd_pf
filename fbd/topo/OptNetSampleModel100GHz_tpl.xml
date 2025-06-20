@@ -1,0 +1,1783 @@
+<?xml version="1.0" ?>
+<topology>
+    <design>
+        <source>D:\D_Document\Model_KAKEN\TopoGenPublish\TDG\SampleTopology\OptNetSampleModel100GHz\OptNetSampleModel100GHz\OptNetSampleModel100GHz.sch</source>
+        <date>2019/12/19 17:28:54</date>
+        <tool>Eeschema (5.1.2)-2</tool>
+        <sheet name="/" number="1" tstamps="/">
+            <title_block>
+                <title/>
+                <company/>
+                <rev/>
+                <date/>
+                <source>OptNetSampleModel100GHz.sch</source>
+                <comment number="1" value=""/>
+                <comment number="2" value=""/>
+                <comment number="3" value=""/>
+                <comment number="4" value=""/>
+            </title_block>
+        </sheet>
+        <sheet name="/Dnode1/" number="2" tstamps="/5DFB1CBE/">
+            <title_block>
+                <title/>
+                <company/>
+                <rev/>
+                <date/>
+                <source>Dnode1.sch</source>
+                <comment number="1" value=""/>
+                <comment number="2" value=""/>
+                <comment number="3" value=""/>
+                <comment number="4" value=""/>
+            </title_block>
+        </sheet>
+        <sheet name="/Dnode2/" number="3" tstamps="/5DFB1D12/">
+            <title_block>
+                <title/>
+                <company/>
+                <rev/>
+                <date/>
+                <source>Dnode2.sch</source>
+                <comment number="1" value=""/>
+                <comment number="2" value=""/>
+                <comment number="3" value=""/>
+                <comment number="4" value=""/>
+            </title_block>
+        </sheet>
+        <sheet name="/Dnode3/" number="4" tstamps="/5DFB1D88/">
+            <title_block>
+                <title/>
+                <company/>
+                <rev/>
+                <date/>
+                <source>Dnode3.sch</source>
+                <comment number="1" value=""/>
+                <comment number="2" value=""/>
+                <comment number="3" value=""/>
+                <comment number="4" value=""/>
+            </title_block>
+        </sheet>
+        <sheet name="/Dnode4/" number="5" tstamps="/5DFB1DDD/">
+            <title_block>
+                <title/>
+                <company/>
+                <rev/>
+                <date/>
+                <source>Dnode4.sch</source>
+                <comment number="1" value=""/>
+                <comment number="2" value=""/>
+                <comment number="3" value=""/>
+                <comment number="4" value=""/>
+            </title_block>
+        </sheet>
+        <channelInfo>
+            <channelTable id="WDM32" type="optical">
+                <channel no="1">
+                    <doubleParam name="frequency" unit="THz">195.5</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="2">
+                    <doubleParam name="frequency" unit="THz">195.4</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="3">
+                    <doubleParam name="frequency" unit="THz">195.3</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="4">
+                    <doubleParam name="frequency" unit="THz">195.2</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="5">
+                    <doubleParam name="frequency" unit="THz">195.1</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="6">
+                    <doubleParam name="frequency" unit="THz">195.0</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="7">
+                    <doubleParam name="frequency" unit="THz">194.9</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="8">
+                    <doubleParam name="frequency" unit="THz">194.8</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="9">
+                    <doubleParam name="frequency" unit="THz">194.7</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="10">
+                    <doubleParam name="frequency" unit="THz">194.6</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="11">
+                    <doubleParam name="frequency" unit="THz">194.5</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="12">
+                    <doubleParam name="frequency" unit="THz">194.4</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="13">
+                    <doubleParam name="frequency" unit="THz">194.3</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="14">
+                    <doubleParam name="frequency" unit="THz">194.2</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="15">
+                    <doubleParam name="frequency" unit="THz">194.1</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="16">
+                    <doubleParam name="frequency" unit="THz">194.0</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="17">
+                    <doubleParam name="frequency" unit="THz">193.9</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="18">
+                    <doubleParam name="frequency" unit="THz">193.8</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="19">
+                    <doubleParam name="frequency" unit="THz">193.7</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="20">
+                    <doubleParam name="frequency" unit="THz">193.6</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="21">
+                    <doubleParam name="frequency" unit="THz">193.5</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="22">
+                    <doubleParam name="frequency" unit="THz">193.4</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="23">
+                    <doubleParam name="frequency" unit="THz">193.3</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="24">
+                    <doubleParam name="frequency" unit="THz">193.2</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="25">
+                    <doubleParam name="frequency" unit="THz">193.1</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="26">
+                    <doubleParam name="frequency" unit="THz">193.0</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="27">
+                    <doubleParam name="frequency" unit="THz">192.9</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="28">
+                    <doubleParam name="frequency" unit="THz">192.8</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="29">
+                    <doubleParam name="frequency" unit="THz">192.7</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="30">
+                    <doubleParam name="frequency" unit="THz">192.6</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="31">
+                    <doubleParam name="frequency" unit="THz">192.5</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+                <channel no="32">
+                    <doubleParam name="frequency" unit="THz">192.4</doubleParam>
+                    <doubleParam name="bandWidth" unit="GHz">100</doubleParam>
+                </channel>
+            </channelTable>
+        </channelInfo>
+        <signalformInfo>
+            <signalTable id="ANY" type="optical"/>
+        </signalformInfo>
+    </design>
+    <components>
+        <comp ref="N202">
+            <field name="idname">/TEST_WSS1X9_100GHz_N202</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels: j = l}; s.t. input{j in Channels, i in InputPort}: sum{k in OutputPort} c[i, j,k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS1X9_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="input" name="/TEST_WSS1X9_100GHz_N202_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N202_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N203">
+            <field name="idname">/TEST_WSS1X9_100GHz_N203</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels: j = l}; s.t. input{j in Channels, i in InputPort}: sum{k in OutputPort} c[i, j,k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS1X9_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="input" name="/TEST_WSS1X9_100GHz_N203_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N203_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N205">
+            <field name="idname">/TEST_CPL9X1_100GHz_N205</field>
+            <field name="residence">/Dnode1/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">CPL9X1_100GHz</field>
+            <field name="Type">Coupler</field>
+            <ports>
+                <port io="output" name="/TEST_CPL9X1_100GHz_N205_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N205_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N206">
+            <field name="idname">/TEST_CPL9X1_100GHz_N206</field>
+            <field name="residence">/Dnode1/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">CPL9X1_100GHz</field>
+            <field name="Type">Coupler</field>
+            <ports>
+                <port io="output" name="/TEST_CPL9X1_100GHz_N206_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N206_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N201">
+            <field name="idname">/TEST_EDFA8array_100GHz_N201</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l &amp;&amp; k = i + 1};</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">EDFA8array_100GHz</field>
+            <field name="Socket">55400</field>
+            <field name="Type">EDFA</field>
+            <ports>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT2" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN3" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT3" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN4" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT4" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN5" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT5" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN6" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT6" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN7" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT7" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N201_IN8" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N201_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P201">
+            <field name="idname">/TEST_TPND_100GHz_P201</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P201_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P201_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P202">
+            <field name="idname">/TEST_TPND_100GHz_P202</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P202_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P202_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P203">
+            <field name="idname">/TEST_TPND_100GHz_P203</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P203_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P203_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P204">
+            <field name="idname">/TEST_TPND_100GHz_P204</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P204_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P204_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N204">
+            <field name="idname">/TEST_MCS8X8_2array_100GHz_N204</field>
+            <field name="residence">/Dnode1/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set InputPortD := {1..8}; set OutputPortD := {17..24}; set InputPortA := {25..32}; set OutputPortA := {9..16}; set AvailableConnectionD := {i in InputPortD, j in Channels, k in OutputPortD, l in Channels: j = l}; set AvailableConnectionA := {i in InputPortA, j in Channels, k in OutputPortA, l in Channels: j = l}; set AvailableConnection := AvailableConnectionD union AvailableConnectionA; s.t. outputA{i in InputPortA, j in Channels}: sum{k in OutputPortA} c[i, j, k, j] &lt;= 1; s.t. inputD{j in Channels, k in OutputPortD}: sum{i in InputPortD} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">MCS8X8_2array_100GHz</field>
+            <field name="Socket">55200</field>
+            <field name="Type">TPA</field>
+            <ports>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN2" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN3" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN4" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN5" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN6" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN7" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_IN8" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT1" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT2" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT3" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT4" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT5" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT6" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT7" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP1" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP2" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP3" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP4" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP5" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP6" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP7" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N204_DROP8" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD1" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD2" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD3" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD4" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD5" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD6" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD7" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N204_ADD8" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N302">
+            <field name="idname">/TEST_WSS1X9_100GHz_N302</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels: j = l}; s.t. input{j in Channels, i in InputPort}: sum{k in OutputPort} c[i, j,k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS1X9_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="input" name="/TEST_WSS1X9_100GHz_N302_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N302_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N303">
+            <field name="idname">/TEST_WSS1X9_100GHz_N303</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels: j = l}; s.t. input{j in Channels, i in InputPort}: sum{k in OutputPort} c[i, j,k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS1X9_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="input" name="/TEST_WSS1X9_100GHz_N303_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_WSS1X9_100GHz_N303_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N305">
+            <field name="idname">/TEST_CPL9X1_100GHz_N305</field>
+            <field name="residence">/Dnode2/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">CPL9X1_100GHz</field>
+            <field name="Type">Coupler</field>
+            <ports>
+                <port io="output" name="/TEST_CPL9X1_100GHz_N305_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N305_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N306">
+            <field name="idname">/TEST_CPL9X1_100GHz_N306</field>
+            <field name="residence">/Dnode2/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">CPL9X1_100GHz</field>
+            <field name="Type">Coupler</field>
+            <ports>
+                <port io="output" name="/TEST_CPL9X1_100GHz_N306_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_CPL9X1_100GHz_N306_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N301">
+            <field name="idname">/TEST_EDFA8array_100GHz_N301</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l &amp;&amp; k = i + 1};</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">EDFA8array_100GHz</field>
+            <field name="Socket">55400</field>
+            <field name="Type">EDFA</field>
+            <ports>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT2" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN3" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT3" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN4" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT4" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN5" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT5" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN6" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT6" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN7" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT7" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N301_IN8" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N301_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P301">
+            <field name="idname">/TEST_TPND_100GHz_P301</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P301_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P301_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P302">
+            <field name="idname">/TEST_TPND_100GHz_P302</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P302_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P302_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P303">
+            <field name="idname">/TEST_TPND_100GHz_P303</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P303_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P303_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P304">
+            <field name="idname">/TEST_TPND_100GHz_P304</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P304_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P304_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N304">
+            <field name="idname">/TEST_MCS8X8_2array_100GHz_N304</field>
+            <field name="residence">/Dnode2/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set InputPortD := {1..8}; set OutputPortD := {17..24}; set InputPortA := {25..32}; set OutputPortA := {9..16}; set AvailableConnectionD := {i in InputPortD, j in Channels, k in OutputPortD, l in Channels: j = l}; set AvailableConnectionA := {i in InputPortA, j in Channels, k in OutputPortA, l in Channels: j = l}; set AvailableConnection := AvailableConnectionD union AvailableConnectionA; s.t. outputA{i in InputPortA, j in Channels}: sum{k in OutputPortA} c[i, j, k, j] &lt;= 1; s.t. inputD{j in Channels, k in OutputPortD}: sum{i in InputPortD} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">MCS8X8_2array_100GHz</field>
+            <field name="Socket">55200</field>
+            <field name="Type">TPA</field>
+            <ports>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN2" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN3" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN4" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN5" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN6" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN7" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_IN8" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT1" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT2" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT3" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT4" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT5" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT6" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT7" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP1" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP2" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP3" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP4" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP5" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP6" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP7" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N304_DROP8" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD1" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD2" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD3" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD4" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD5" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD6" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD7" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N304_ADD8" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N401">
+            <field name="idname">/TEST_EDFA8array_100GHz_N401</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l &amp;&amp; k = i + 1};</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">EDFA8array_100GHz</field>
+            <field name="Socket">55400</field>
+            <field name="Type">EDFA</field>
+            <ports>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT2" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN3" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT3" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN4" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT4" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN5" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT5" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN6" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT6" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN7" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT7" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N401_IN8" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N401_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P401">
+            <field name="idname">/TEST_TPND_100GHz_P401</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P401_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P401_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P402">
+            <field name="idname">/TEST_TPND_100GHz_P402</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P402_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P402_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P403">
+            <field name="idname">/TEST_TPND_100GHz_P403</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P403_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P403_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P404">
+            <field name="idname">/TEST_TPND_100GHz_P404</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P404_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P404_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N404">
+            <field name="idname">/TEST_MCS8X8_2array_100GHz_N404</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set InputPortD := {1..8}; set OutputPortD := {17..24}; set InputPortA := {25..32}; set OutputPortA := {9..16}; set AvailableConnectionD := {i in InputPortD, j in Channels, k in OutputPortD, l in Channels: j = l}; set AvailableConnectionA := {i in InputPortA, j in Channels, k in OutputPortA, l in Channels: j = l}; set AvailableConnection := AvailableConnectionD union AvailableConnectionA; s.t. outputA{i in InputPortA, j in Channels}: sum{k in OutputPortA} c[i, j, k, j] &lt;= 1; s.t. inputD{j in Channels, k in OutputPortD}: sum{i in InputPortD} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">MCS8X8_2array_100GHz</field>
+            <field name="Socket">55200</field>
+            <field name="Type">TPA</field>
+            <ports>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN2" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN3" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN4" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN5" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN6" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN7" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_IN8" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT1" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT2" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT3" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT4" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT5" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT6" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT7" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP1" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP2" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP3" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP4" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP5" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP6" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP7" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N404_DROP8" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD1" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD2" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD3" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD4" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD5" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD6" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD7" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N404_ADD8" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N402">
+            <field name="idname">/TEST_DIV1X9_100GHz_N402</field>
+            <field name="residence">/Dnode3/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">DIV1X9_100GHz</field>
+            <field name="Type">Divider</field>
+            <ports>
+                <port io="input" name="/TEST_DIV1X9_100GHz_N402_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N402_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N403">
+            <field name="idname">/TEST_DIV1X9_100GHz_N403</field>
+            <field name="residence">/Dnode3/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">DIV1X9_100GHz</field>
+            <field name="Type">Divider</field>
+            <ports>
+                <port io="input" name="/TEST_DIV1X9_100GHz_N403_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N403_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N405">
+            <field name="idname">/TEST_WSS9X1_100GHz_N405</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. input{j in Channels, k in OutputPort}: sum{i in InputPort} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS9X1_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="output" name="/TEST_WSS9X1_100GHz_N405_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N405_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N406">
+            <field name="idname">/TEST_WSS9X1_100GHz_N406</field>
+            <field name="residence">/Dnode3/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. input{j in Channels, k in OutputPort}: sum{i in InputPort} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS9X1_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="output" name="/TEST_WSS9X1_100GHz_N406_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N406_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N502">
+            <field name="idname">/TEST_EDFA8array_100GHz_N502</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l &amp;&amp; k = i + 1};</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">EDFA8array_100GHz</field>
+            <field name="Socket">55400</field>
+            <field name="Type">EDFA</field>
+            <ports>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT2" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN3" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT3" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN4" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT4" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN5" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT5" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN6" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT6" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN7" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT7" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_EDFA8array_100GHz_N502_IN8" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_EDFA8array_100GHz_N502_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P501">
+            <field name="idname">/TEST_TPND_100GHz_P501</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P501_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P501_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P504">
+            <field name="idname">/TEST_TPND_100GHz_P504</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P504_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P504_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P505">
+            <field name="idname">/TEST_TPND_100GHz_P505</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P505_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P505_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P506">
+            <field name="idname">/TEST_TPND_100GHz_P506</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P506_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P506_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N507">
+            <field name="idname">/TEST_MCS8X8_2array_100GHz_N507</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Controller">TBD</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set InputPortD := {1..8}; set OutputPortD := {17..24}; set InputPortA := {25..32}; set OutputPortA := {9..16}; set AvailableConnectionD := {i in InputPortD, j in Channels, k in OutputPortD, l in Channels: j = l}; set AvailableConnectionA := {i in InputPortA, j in Channels, k in OutputPortA, l in Channels: j = l}; set AvailableConnection := AvailableConnectionD union AvailableConnectionA; s.t. outputA{i in InputPortA, j in Channels}: sum{k in OutputPortA} c[i, j, k, j] &lt;= 1; s.t. inputD{j in Channels, k in OutputPortD}: sum{i in InputPortD} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">MCS8X8_2array_100GHz</field>
+            <field name="Socket">55200</field>
+            <field name="Type">TPA</field>
+            <ports>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN2" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN3" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN4" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN5" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN6" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN7" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_IN8" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT1" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT2" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT3" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT4" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT5" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT6" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT7" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP1" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP2" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP3" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP4" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP5" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP6" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP7" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_MCS8X8_2array_100GHz_N507_DROP8" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD1" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD2" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD3" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD4" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD5" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD6" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD7" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MCS8X8_2array_100GHz_N507_ADD8" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N505">
+            <field name="idname">/TEST_DIV1X9_100GHz_N505</field>
+            <field name="residence">/Dnode4/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">DIV1X9_100GHz</field>
+            <field name="Type">Divider</field>
+            <ports>
+                <port io="input" name="/TEST_DIV1X9_100GHz_N505_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N505_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N506">
+            <field name="idname">/TEST_DIV1X9_100GHz_N506</field>
+            <field name="residence">/Dnode4/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. divide{AvailableConnection}: c[i, j, k, l] = 1;</field>
+            <field name="Model">DIV1X9_100GHz</field>
+            <field name="Type">Divider</field>
+            <ports>
+                <port io="input" name="/TEST_DIV1X9_100GHz_N506_IN" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DIV1X9_100GHz_N506_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N508">
+            <field name="idname">/TEST_WSS9X1_100GHz_N508</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. input{j in Channels, k in OutputPort}: sum{i in InputPort} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS9X1_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="output" name="/TEST_WSS9X1_100GHz_N508_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N508_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N509">
+            <field name="idname">/TEST_WSS9X1_100GHz_N509</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Controller">192.168.60.1</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. input{j in Channels, k in OutputPort}: sum{i in InputPort} c[i, j, k, j] &lt;= 1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">WSS9X1_100GHz</field>
+            <field name="Socket">55100</field>
+            <field name="Type">WSS</field>
+            <ports>
+                <port io="output" name="/TEST_WSS9X1_100GHz_N509_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_WSS9X1_100GHz_N509_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N503">
+            <field name="idname">/TEST_DEMUX_100GHz_N503</field>
+            <field name="residence">/Dnode4/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels: j=l &amp;&amp; k=j+1}; s.t. demux{AvailableConnection}: c[i,j,k,l]=1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">DEMUX_100GHz</field>
+            <field name="Type">AWG</field>
+            <ports>
+                <port io="input" name="/TEST_DEMUX_100GHz_N503_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT10" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT11" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT12" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT13" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT14" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT15" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT16" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT17" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT18" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT19" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT20" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT21" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT22" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT23" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT24" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT25" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT26" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT27" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT28" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT29" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT30" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT31" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_DEMUX_100GHz_N503_OUT32" number="33" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N504">
+            <field name="idname">/TEST_MUX_100GHz_N504</field>
+            <field name="residence">/Dnode4/</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels: j=l &amp;&amp; i=j+1}; s.t. demux{AvailableConnection}: c[i,j,k,l]=1;</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">MUX_100GHz</field>
+            <field name="Type">AWG</field>
+            <ports>
+                <port io="output" name="/TEST_MUX_100GHz_N504_OUT1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN3" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN4" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN5" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN6" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN7" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN8" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN9" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN10" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN11" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN12" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN13" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN14" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN15" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN16" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN17" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN18" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN19" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN20" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN21" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN22" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN23" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN24" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN25" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN26" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN27" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN28" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN29" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN30" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN31" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_MUX_100GHz_N504_IN32" number="33" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P502">
+            <field name="idname">/TEST_TPND_100GHz_P502</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P502_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P502_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="P503">
+            <field name="idname">/TEST_TPND_100GHz_P503</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Type">TERMINAL</field>
+            <ports>
+                <port io="output" name="/TEST_TPND_100GHz_P503_OUT" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_TPND_100GHz_P503_IN" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+        <comp ref="N501">
+            <field name="idname">/TEST_FXC32_100GHz_N501</field>
+            <field name="residence">/Dnode4/</field>
+            <field name="Controller">192.168.60.5</field>
+            <field GLPKchannelTableId="WDM32" GLPKtype="switching" name="GLPK">set AvailableConnection := {i in InputPort, j in Channels, k in OutputPort, l in Channels : j = l}; s.t. input{j in Channels, k in OutputPort}: sum{i in InputPort} c[i, j, k, j] &lt;= 1; s.t. output{i in InputPort, j in Channels}:sum{k in OutputPort} c[i, j, k, j] &lt;= 1; s.t. wavelength{i in InputPort, k in OutputPort, j in Channels : j+1 in Channels}: c[i, j, k, j] = c[i, j+1, k, j+1];</field>
+            <field name="LocalConfig">TBD</field>
+            <field name="Model">FXC32_100GHz</field>
+            <field name="Socket">55000</field>
+            <field name="Type">FXC</field>
+            <ports>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN1" number="1" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT1" number="2" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN2" number="3" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT2" number="4" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN3" number="5" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT3" number="6" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN4" number="7" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT4" number="8" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN5" number="9" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT5" number="10" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN6" number="11" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT6" number="12" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN7" number="13" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT7" number="14" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN8" number="15" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT8" number="16" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN9" number="17" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT9" number="18" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN10" number="19" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT10" number="20" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN11" number="21" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT11" number="22" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN12" number="23" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT12" number="24" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN13" number="25" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT13" number="26" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN14" number="27" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT14" number="28" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN15" number="29" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT15" number="30" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN16" number="31" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT16" number="32" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN17" number="33" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT17" number="34" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN18" number="35" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT18" number="36" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN19" number="37" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT19" number="38" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN20" number="39" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT20" number="40" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN21" number="41" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT21" number="42" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN22" number="43" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT22" number="44" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN23" number="45" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT23" number="46" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN24" number="47" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT24" number="48" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN25" number="49" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT25" number="50" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN26" number="51" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT26" number="52" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN27" number="53" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT27" number="54" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN28" number="55" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT28" number="56" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN29" number="57" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT29" number="58" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN30" number="59" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT30" number="60" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN31" number="61" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT31" number="62" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="input" name="/TEST_FXC32_100GHz_N501_IN32" number="63" supportChannel="WDM32" supportSignal="ANY"/>
+                <port io="output" name="/TEST_FXC32_100GHz_N501_OUT32" number="64" supportChannel="WDM32" supportSignal="ANY"/>
+            </ports>
+        </comp>
+    </components>
+    <nets>
+        <net code="1" name="/NODE1_NODE2_01-1" pair="/NODE1_NODE2_01-0">
+            <node pin="1" ref="N201"/>
+            <node pin="8" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="2" name="/NODE3_NODE4_01-0" pair="/NODE3_NODE4_01-1">
+            <node pin="6" ref="N401"/>
+            <node pin="3" ref="N502"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="3" name="/NODE3_NODE4_01-1" pair="/NODE3_NODE4_01-0">
+            <node pin="1" ref="N401"/>
+            <node pin="8" ref="N502"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="4" name="/NODE2_NODE4_01-0" pair="/NODE2_NODE4_01-1">
+            <node pin="6" ref="N502"/>
+            <node pin="1" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="5" name="/NODE2_NODE4_01-1" pair="/NODE2_NODE4_01-0">
+            <node pin="1" ref="N502"/>
+            <node pin="6" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="6" name="/NODE1_NODE3_01-0" pair="/NODE1_NODE3_01-1">
+            <node pin="3" ref="N401"/>
+            <node pin="8" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="7" name="/NODE1_NODE3_01-1" pair="/NODE1_NODE3_01-0">
+            <node pin="8" ref="N401"/>
+            <node pin="3" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="8" name="/NODE1_NODE2_01-0" pair="/NODE1_NODE2_01-1">
+            <node pin="6" ref="N201"/>
+            <node pin="3" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="37" name="Net-(N204-Pad10)">
+            <node pin="10" ref="N204"/>
+            <node pin="4" ref="N206"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="38" name="Net-(N201-Pad5)">
+            <node pin="5" ref="N201"/>
+            <node pin="1" ref="N205"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="39" name="Net-(N201-Pad7)">
+            <node pin="1" ref="N206"/>
+            <node pin="7" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="40" name="Net-(N201-Pad2)">
+            <node pin="1" ref="N202"/>
+            <node pin="2" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="41" name="Net-(N201-Pad4)">
+            <node pin="4" ref="N201"/>
+            <node pin="1" ref="N203"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="52" name="Net-(N204-Pad9)">
+            <node pin="4" ref="N205"/>
+            <node pin="9" ref="N204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="53" name="/Dnode1/NODE1_AD2-1" pair="/Dnode1/NODE1_AD2-0">
+            <node pin="2" ref="P202"/>
+            <node pin="18" ref="N204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="54" name="/Dnode1/NODE1_AD3-1" pair="/Dnode1/NODE1_AD3-0">
+            <node pin="2" ref="P203"/>
+            <node pin="19" ref="N204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="55" name="/Dnode1/NODE1_AD4-1" pair="/Dnode1/NODE1_AD4-0">
+            <node pin="20" ref="N204"/>
+            <node pin="2" ref="P204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="62" name="Net-(N201-Pad10)">
+            <node pin="25" ref="N204"/>
+            <node pin="10" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="63" name="Net-(N201-Pad12)">
+            <node pin="26" ref="N204"/>
+            <node pin="12" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="64" name="Net-(N203-Pad3)">
+            <node pin="3" ref="N206"/>
+            <node pin="3" ref="N203"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="65" name="Net-(N202-Pad2)">
+            <node pin="2" ref="N205"/>
+            <node pin="2" ref="N202"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="66" name="Net-(N202-Pad4)">
+            <node pin="4" ref="N202"/>
+            <node pin="1" ref="N204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="67" name="Net-(N203-Pad2)">
+            <node pin="2" ref="N203"/>
+            <node pin="3" ref="N205"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="68" name="Net-(N203-Pad4)">
+            <node pin="4" ref="N203"/>
+            <node pin="2" ref="N204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="69" name="Net-(N202-Pad3)">
+            <node pin="2" ref="N206"/>
+            <node pin="3" ref="N202"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="70" name="/Dnode1/NODE1_AD1-0" pair="/Dnode1/NODE1_AD1-1">
+            <node pin="1" ref="P201"/>
+            <node pin="9" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="71" name="/Dnode1/NODE1_AD1-1" pair="/Dnode1/NODE1_AD1-0">
+            <node pin="17" ref="N204"/>
+            <node pin="2" ref="P201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="72" name="/Dnode1/NODE1_AD2-0" pair="/Dnode1/NODE1_AD2-1">
+            <node pin="11" ref="N201"/>
+            <node pin="1" ref="P202"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="73" name="/Dnode1/NODE1_AD3-0" pair="/Dnode1/NODE1_AD3-1">
+            <node pin="1" ref="P203"/>
+            <node pin="13" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="74" name="/Dnode1/NODE1_AD4-0" pair="/Dnode1/NODE1_AD4-1">
+            <node pin="1" ref="P204"/>
+            <node pin="15" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="75" name="Net-(N201-Pad16)">
+            <node pin="16" ref="N201"/>
+            <node pin="28" ref="N204"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="76" name="Net-(N201-Pad14)">
+            <node pin="27" ref="N204"/>
+            <node pin="14" ref="N201"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="104" name="Net-(N304-Pad10)">
+            <node pin="10" ref="N304"/>
+            <node pin="4" ref="N306"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="105" name="Net-(N301-Pad5)">
+            <node pin="1" ref="N305"/>
+            <node pin="5" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="106" name="Net-(N301-Pad7)">
+            <node pin="7" ref="N301"/>
+            <node pin="1" ref="N306"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="107" name="Net-(N301-Pad2)">
+            <node pin="2" ref="N301"/>
+            <node pin="1" ref="N302"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="108" name="Net-(N301-Pad4)">
+            <node pin="1" ref="N303"/>
+            <node pin="4" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="120" name="/Dnode2/NODE2_AD3-1" pair="/Dnode2/NODE2_AD3-0">
+            <node pin="19" ref="N304"/>
+            <node pin="2" ref="P303"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="121" name="/Dnode2/NODE2_AD4-1" pair="/Dnode2/NODE2_AD4-0">
+            <node pin="2" ref="P304"/>
+            <node pin="20" ref="N304"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="128" name="/Dnode2/NODE2_AD1-1" pair="/Dnode2/NODE2_AD1-0">
+            <node pin="2" ref="P301"/>
+            <node pin="17" ref="N304"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="129" name="Net-(N304-Pad9)">
+            <node pin="9" ref="N304"/>
+            <node pin="4" ref="N305"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="130" name="Net-(N301-Pad10)">
+            <node pin="25" ref="N304"/>
+            <node pin="10" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="131" name="Net-(N301-Pad12)">
+            <node pin="26" ref="N304"/>
+            <node pin="12" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="132" name="Net-(N301-Pad14)">
+            <node pin="27" ref="N304"/>
+            <node pin="14" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="133" name="Net-(N303-Pad3)">
+            <node pin="3" ref="N306"/>
+            <node pin="3" ref="N303"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="134" name="Net-(N302-Pad2)">
+            <node pin="2" ref="N302"/>
+            <node pin="2" ref="N305"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="135" name="Net-(N302-Pad3)">
+            <node pin="2" ref="N306"/>
+            <node pin="3" ref="N302"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="136" name="Net-(N302-Pad4)">
+            <node pin="4" ref="N302"/>
+            <node pin="1" ref="N304"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="137" name="Net-(N303-Pad2)">
+            <node pin="2" ref="N303"/>
+            <node pin="3" ref="N305"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="138" name="Net-(N303-Pad4)">
+            <node pin="4" ref="N303"/>
+            <node pin="2" ref="N304"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="139" name="/Dnode2/NODE2_AD2-1" pair="/Dnode2/NODE2_AD2-0">
+            <node pin="2" ref="P302"/>
+            <node pin="18" ref="N304"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="140" name="/Dnode2/NODE2_AD1-0" pair="/Dnode2/NODE2_AD1-1">
+            <node pin="9" ref="N301"/>
+            <node pin="1" ref="P301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="141" name="Net-(N301-Pad16)">
+            <node pin="28" ref="N304"/>
+            <node pin="16" ref="N301"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="142" name="/Dnode2/NODE2_AD2-0" pair="/Dnode2/NODE2_AD2-1">
+            <node pin="11" ref="N301"/>
+            <node pin="1" ref="P302"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="143" name="/Dnode2/NODE2_AD3-0" pair="/Dnode2/NODE2_AD3-1">
+            <node pin="13" ref="N301"/>
+            <node pin="1" ref="P303"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="144" name="/Dnode2/NODE2_AD4-0" pair="/Dnode2/NODE2_AD4-1">
+            <node pin="15" ref="N301"/>
+            <node pin="1" ref="P304"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="153" name="Net-(N403-Pad4)">
+            <node pin="4" ref="N403"/>
+            <node pin="2" ref="N404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="156" name="Net-(N401-Pad10)">
+            <node pin="10" ref="N401"/>
+            <node pin="25" ref="N404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="157" name="Net-(N401-Pad12)">
+            <node pin="26" ref="N404"/>
+            <node pin="12" ref="N401"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="158" name="Net-(N401-Pad14)">
+            <node pin="27" ref="N404"/>
+            <node pin="14" ref="N401"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="159" name="Net-(N401-Pad16)">
+            <node pin="16" ref="N401"/>
+            <node pin="28" ref="N404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="181" name="Net-(N404-Pad9)">
+            <node pin="4" ref="N405"/>
+            <node pin="9" ref="N404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="188" name="Net-(N404-Pad10)">
+            <node pin="4" ref="N406"/>
+            <node pin="10" ref="N404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="190" name="/Dnode3/NODE3_AD1-1" pair="/Dnode3/NODE3_AD1-0">
+            <node pin="17" ref="N404"/>
+            <node pin="2" ref="P401"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="191" name="/Dnode3/NODE3_AD2-1" pair="/Dnode3/NODE3_AD2-0">
+            <node pin="2" ref="P402"/>
+            <node pin="18" ref="N404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="192" name="/Dnode3/NODE3_AD3-0" pair="/Dnode3/NODE3_AD3-1">
+            <node pin="13" ref="N401"/>
+            <node pin="1" ref="P403"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="193" name="/Dnode3/NODE3_AD3-1" pair="/Dnode3/NODE3_AD3-0">
+            <node pin="19" ref="N404"/>
+            <node pin="2" ref="P403"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="194" name="/Dnode3/NODE3_AD4-0" pair="/Dnode3/NODE3_AD4-1">
+            <node pin="15" ref="N401"/>
+            <node pin="1" ref="P404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="195" name="/Dnode3/NODE3_AD4-1" pair="/Dnode3/NODE3_AD4-0">
+            <node pin="20" ref="N404"/>
+            <node pin="2" ref="P404"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="198" name="Net-(N402-Pad2)">
+            <node pin="2" ref="N402"/>
+            <node pin="2" ref="N405"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="199" name="Net-(N402-Pad3)">
+            <node pin="2" ref="N406"/>
+            <node pin="3" ref="N402"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="200" name="Net-(N402-Pad4)">
+            <node pin="1" ref="N404"/>
+            <node pin="4" ref="N402"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="205" name="Net-(N403-Pad2)">
+            <node pin="2" ref="N403"/>
+            <node pin="3" ref="N405"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="206" name="Net-(N403-Pad3)">
+            <node pin="3" ref="N403"/>
+            <node pin="3" ref="N406"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="207" name="Net-(N401-Pad2)">
+            <node pin="2" ref="N401"/>
+            <node pin="1" ref="N402"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="208" name="Net-(N401-Pad4)">
+            <node pin="4" ref="N401"/>
+            <node pin="1" ref="N403"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="209" name="Net-(N401-Pad5)">
+            <node pin="5" ref="N401"/>
+            <node pin="1" ref="N405"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="210" name="Net-(N401-Pad7)">
+            <node pin="1" ref="N406"/>
+            <node pin="7" ref="N401"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="211" name="/Dnode3/NODE3_AD1-0" pair="/Dnode3/NODE3_AD1-1">
+            <node pin="9" ref="N401"/>
+            <node pin="1" ref="P401"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="212" name="/Dnode3/NODE3_AD2-0" pair="/Dnode3/NODE3_AD2-1">
+            <node pin="1" ref="P402"/>
+            <node pin="11" ref="N401"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="224" name="Net-(N501-Pad16)">
+            <node pin="9" ref="N504"/>
+            <node pin="16" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="225" name="Net-(N501-Pad14)">
+            <node pin="8" ref="N504"/>
+            <node pin="14" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="243" name="Net-(N501-Pad2)">
+            <node pin="2" ref="N501"/>
+            <node pin="2" ref="N504"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="247" name="Net-(N501-Pad13)">
+            <node pin="8" ref="N503"/>
+            <node pin="13" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="248" name="Net-(N501-Pad10)">
+            <node pin="6" ref="N504"/>
+            <node pin="10" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="249" name="Net-(N501-Pad1)">
+            <node pin="2" ref="N503"/>
+            <node pin="1" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="253" name="Net-(N501-Pad3)">
+            <node pin="3" ref="N501"/>
+            <node pin="3" ref="N503"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="254" name="Net-(N503-Pad1)">
+            <node pin="1" ref="N503"/>
+            <node pin="17" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="255" name="Net-(N502-Pad9)">
+            <node pin="9" ref="N502"/>
+            <node pin="1" ref="N504"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="256" name="Net-(N501-Pad12)">
+            <node pin="12" ref="N501"/>
+            <node pin="7" ref="N504"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="257" name="Net-(N501-Pad5)">
+            <node pin="5" ref="N501"/>
+            <node pin="4" ref="N503"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="269" name="Net-(N501-Pad8)">
+            <node pin="5" ref="N504"/>
+            <node pin="8" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="270" name="Net-(N501-Pad6)">
+            <node pin="6" ref="N501"/>
+            <node pin="4" ref="N504"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="271" name="Net-(N501-Pad4)">
+            <node pin="4" ref="N501"/>
+            <node pin="3" ref="N504"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="272" name="Net-(N501-Pad15)">
+            <node pin="9" ref="N503"/>
+            <node pin="15" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="273" name="Net-(N501-Pad11)">
+            <node pin="11" ref="N501"/>
+            <node pin="7" ref="N503"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="274" name="Net-(N501-Pad9)">
+            <node pin="9" ref="N501"/>
+            <node pin="6" ref="N503"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="275" name="Net-(N501-Pad7)">
+            <node pin="5" ref="N503"/>
+            <node pin="7" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="296" name="/Dnode4/NODE4_AD6-0" pair="/Dnode4/NODE4_AD6-1">
+            <node pin="15" ref="N502"/>
+            <node pin="1" ref="P506"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="297" name="/Dnode4/NODE4_AD5-0" pair="/Dnode4/NODE4_AD5-1">
+            <node pin="1" ref="P505"/>
+            <node pin="13" ref="N502"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="298" name="/Dnode4/NODE4_AD4-0" pair="/Dnode4/NODE4_AD4-1">
+            <node pin="1" ref="P504"/>
+            <node pin="11" ref="N502"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="299" name="/Dnode4/NODE4_AD3-1" pair="/Dnode4/NODE4_AD3-0">
+            <node pin="43" ref="N501"/>
+            <node pin="1" ref="P503"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="300" name="/Dnode4/NODE4_AD3-0" pair="/Dnode4/NODE4_AD3-1">
+            <node pin="2" ref="P503"/>
+            <node pin="44" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="301" name="/Dnode4/NODE4_AD2-1" pair="/Dnode4/NODE4_AD2-0">
+            <node pin="1" ref="P502"/>
+            <node pin="45" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="302" name="/Dnode4/NODE4_AD2-0" pair="/Dnode4/NODE4_AD2-1">
+            <node pin="2" ref="P502"/>
+            <node pin="46" ref="N501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="303" name="/Dnode4/NODE4_AD1-1" pair="/Dnode4/NODE4_AD1-0">
+            <node pin="47" ref="N501"/>
+            <node pin="1" ref="P501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="304" name="/Dnode4/NODE4_AD1-0" pair="/Dnode4/NODE4_AD1-1">
+            <node pin="48" ref="N501"/>
+            <node pin="2" ref="P501"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="333" name="Net-(N502-Pad4)">
+            <node pin="1" ref="N506"/>
+            <node pin="4" ref="N502"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="334" name="Net-(N502-Pad2)">
+            <node pin="2" ref="N502"/>
+            <node pin="1" ref="N505"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="335" name="Net-(N502-Pad7)">
+            <node pin="7" ref="N502"/>
+            <node pin="1" ref="N509"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="336" name="Net-(N502-Pad5)">
+            <node pin="5" ref="N502"/>
+            <node pin="1" ref="N508"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="337" name="Net-(N507-Pad10)">
+            <node pin="10" ref="N507"/>
+            <node pin="4" ref="N509"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="338" name="Net-(N507-Pad9)">
+            <node pin="4" ref="N508"/>
+            <node pin="9" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="339" name="Net-(N506-Pad4)">
+            <node pin="4" ref="N506"/>
+            <node pin="2" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="356" name="Net-(N505-Pad4)">
+            <node pin="4" ref="N505"/>
+            <node pin="1" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="372" name="Net-(N502-Pad16)">
+            <node pin="16" ref="N502"/>
+            <node pin="28" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="373" name="Net-(N502-Pad10)">
+            <node pin="10" ref="N502"/>
+            <node pin="25" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="374" name="Net-(N502-Pad14)">
+            <node pin="14" ref="N502"/>
+            <node pin="27" ref="N507"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="375" name="Net-(N502-Pad12)">
+            <node pin="26" ref="N507"/>
+            <node pin="12" ref="N502"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="376" name="/Dnode4/NODE4_AD6-1" pair="/Dnode4/NODE4_AD6-0">
+            <node pin="20" ref="N507"/>
+            <node pin="2" ref="P506"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="377" name="Net-(N506-Pad3)">
+            <node pin="3" ref="N506"/>
+            <node pin="3" ref="N509"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="378" name="Net-(N506-Pad2)">
+            <node pin="2" ref="N506"/>
+            <node pin="3" ref="N508"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="379" name="Net-(N505-Pad3)">
+            <node pin="3" ref="N505"/>
+            <node pin="2" ref="N509"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="380" name="Net-(N505-Pad2)">
+            <node pin="2" ref="N508"/>
+            <node pin="2" ref="N505"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="382" name="/Dnode4/NODE4_AD5-1" pair="/Dnode4/NODE4_AD5-0">
+            <node pin="19" ref="N507"/>
+            <node pin="2" ref="P505"/>
+            <cost>0.0</cost>
+        </net>
+        <net code="383" name="/Dnode4/NODE4_AD4-1" pair="/Dnode4/NODE4_AD4-0">
+            <node pin="18" ref="N507"/>
+            <node pin="2" ref="P504"/>
+            <cost>0.0</cost>
+        </net>
+    </nets>
+</topology>
+

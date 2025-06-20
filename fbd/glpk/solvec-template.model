@@ -1,0 +1,43 @@
+param src symbolic;
+param dst symbolic;
+param NUM_VARS integer, >0;
+
+set V;
+set Vinuse;
+set FlowInPorts{V};
+set FlowOutPorts{V};
+set AllChannels;
+set InputChannels := AllChannels;
+set OutputChannels := AllChannels;
+set FlowInChannels{V};
+set IJK2Ls{V, InputChannels, V};
+param chNo{AllChannels};
+
+param vt{V, InputChannels, V, OutputChannels};
+param inuse_X{V, InputChannels, V, OutputChannels};
+
+var c{1..NUM_VARS} binary;
+
+
+minimize CONNECTION_COST:
+	sum{i in Vinuse, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}
+		c[vt[i, j, k, l]];
+
+s.t. COND_INUSE_C{
+	i in Vinuse, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}:
+		inuse_X[i, j, k, l] <= c[vt[i, j, k, l]];
+
+
+### CONSTRAINT_STATEMENTS ###
+
+
+solve;
+
+printf "# src=%s, dst=%s\n", src, dst;
+printf "#\t    i       j      |      k       l         c useX (non-zero only)\n";
+printf{i in Vinuse, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+		: vt[i, j, k, l] > 0 && (c[vt[i, j, k, l]] > 0 || inuse_X[i, j, k, l] > 0)}:
+	"#\t%-8s %-10s   %-8s %-10s   %d %d\n", i, j, k, l, c[vt[i, j, k, l]], inuse_X[i, j, k, l];
+end;

@@ -1,0 +1,137 @@
+param src symbolic;
+param dst symbolic;
+param NUM_VARS integer, >0;
+
+set V;
+set FlowInPorts{V};
+set FlowOutPorts{V};
+set AllChannels;
+set InputChannels := AllChannels;
+set OutputChannels := AllChannels;
+set FlowInChannels{V};
+set IJK2Ls{V, InputChannels, V};
+set NextEroPorts;
+param chNo{AllChannels};
+
+param cost{V, InputChannels, V, OutputChannels};
+param vt{V, InputChannels, V, OutputChannels};
+param pair{V, InputChannels, V, OutputChannels};
+param inuse_X{V, InputChannels, V, OutputChannels};
+param inuse_C{V, InputChannels, V, OutputChannels};
+param c_divider := 32;
+param widthOK{AllChannels};
+set ChannelRange{AllChannels};
+set OUT_OF_SERVICES dimen 4;
+
+var x{1..NUM_VARS} binary;
+var c{1..NUM_VARS} binary;
+var c2{1..NUM_VARS} <= 1;
+
+
+minimize PATH_COST:
+	sum{i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}
+		((1 + cost[i, j, k, l] + 0.0001 * (chNo[j] + chNo[l])) * x[vt[i, j, k, l]] + c2[vt[i, j, k, l]]);
+
+s.t. SOURCE_OUT:
+	sum{j in FlowInChannels[src], k in FlowOutPorts[src], l in IJK2Ls[src, j, k]
+			: vt[src, j, k, l] > 0}
+		(x[vt[src, j, k, l]])
+	= 1;
+
+s.t. SOURCE_IN:
+	sum{i in FlowInPorts[src], j in FlowInChannels[i], l in IJK2Ls[i, j, src]
+			: vt[i, j, src, l] > 0}
+		(x[vt[i, j, src, l]])
+	= 0;
+
+s.t. INTERNAL_CONN{
+	i in V, j in FlowInChannels[i]
+			: i != src && i != dst} :
+		sum{k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+				: vt[i, j, k, l] > 0}
+			(x[vt[i, j, k, l]])
+		=
+		sum{k in FlowInPorts[i], l in FlowInChannels[k]
+				: vt[k, l, i, j] > 0}
+			(x[vt[k, l, i, j]]);
+			
+s.t. COND_INUSE{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0 && widthOK[j] > 0 && widthOK[l] > 0}:
+		x[vt[i, j, k, l]]
+			+
+			(if
+				sum{j2 in ChannelRange[j], l2 in ChannelRange[l] : vt[i, j2, k, l2] > 0}
+					inuse_X[i, j2, k, l2]
+				>
+				0
+			then 1 else 0)
+		<=
+		1;
+
+s.t. COND_CANNOT_USE{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0 && (widthOK[j] == 0 || widthOK[l] == 0)}:
+		x[vt[i, j, k, l]]
+		=
+		0;
+
+s.t. COND_X_PAIR{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0 && pair[i, j, k, l] > 0}:
+		x[vt[i, j, k, l]] + x[pair[i, j, k, l]]
+		<=
+		1;
+
+s.t. DONT_USE_NEXT_ERO_PORTS{
+	i in NextEroPorts, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}:
+		x[vt[i, j, k, l]]
+		=
+		0;
+
+s.t. OUT_OF_SERVICE{
+	(i, j, k, l) in OUT_OF_SERVICES
+			: vt[i, j, k, l] > 0}:
+		x[vt[i, j, k, l]]
+		=
+		0;
+
+#
+# c, c2 & x
+#
+s.t. COND_C_C2_rule1{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}:
+		c2[vt[i, j, k, l]] >= c[vt[i, j, k, l]];
+
+s.t. COND_C_C2_rule2{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}:
+		c2[vt[i, j, k, l]] >= inuse_C[i, j, k, l] / c_divider;
+
+s.t. COND_C_C2_rule3{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}:
+		c2[vt[i, j, k, l]] <= c[vt[i, j, k, l]] + inuse_C[i, j, k, l] / c_divider;
+
+s.t. COND_X_C{
+	i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]
+			: vt[i, j, k, l] > 0}:
+		x[vt[i, j, k, l]] <= c[vt[i, j, k, l]];
+
+
+### CONSTRAINT_STATEMENTS ###
+
+
+solve;
+
+printf "# src=%s, dst=%s\n", src, dst;
+printf "#\t    i       j      |      k       l         x c c'       useX useC (non-zero only)\n";
+printf{i in V, j in FlowInChannels[i], k in FlowOutPorts[i], l in IJK2Ls[i, j, k]:
+		vt[i, j, k, l] > 0 && 
+		(x[vt[i, j, k, l]] > 0 || c[vt[i, j, k, l]] > 0 || c2[vt[i, j, k, l]] > 0.0 || inuse_X[i, j, k, l] > 0 || inuse_C[i, j, k, l] > 0)}:
+	"#\t%-8s %-10s   %-8s %-10s   %d %d %f %d    %d\n", i, j, k, l, x[vt[i, j, k, l]], c[vt[i, j, k, l]], c2[vt[i, j, k, l]], inuse_X[i, j, k, l], inuse_C[i, j, k, l];
+
+end;
