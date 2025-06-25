@@ -16,7 +16,6 @@ Below is the directory structure of the package. Entries marked with \* can be c
 
 ```
 fbd/                             # Top directory  
-├── README  
 ├── config/                      # Configuration files directory  
 │   ├── logconfig.yaml          # Log configuration file *  
 │   ├── param.json              # Configuration file for Python program  
