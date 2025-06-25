@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-The Resource Allocation Program is a Python-based program that runs on Linux and uses GLPK for optimization calculations. This program calculates available connection information for each device and generates model and data files required for route computation.
+FBD_PF is a Python-based program for optical path route calculation using the ILP method and supporting component-level disaggregation. This program calculates available connection information for each device and generates model and data files required for route computation.
 
 ## 2. Operating Environment
 
