@@ -352,7 +352,7 @@ usage: dumpglpsol [true|false]
 |  | `cost` | `PortPair` オブジェクトのコストとして、スケルトンデータの `cost` 値や `OUT_OF_SERVICES` 値の作成に使用されます。 |
 
 なお、トポロジファイルの生成については、下記を参照してください。下記は古いKiCADに対応している点にご注意ください。最新Ver.のKiCADへの対応については現在検討中です。
-https://unit.aist.go.jp/riaep/cppc/en/TDG_Download/index.html
+https://unit.aist.go.jp/peirc/cppc/en/TDG_Download/index.html
 
  
 ## ９．ライセンス 
