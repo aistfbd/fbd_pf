@@ -256,7 +256,7 @@ The program reads the data from the topology file (.xml) and retains each item a
 
 For details on how to generate topology files, please refer to the following link.
 **Note**: The provided resources are compatible with older versions of KiCAD. Support for the latest version of KiCAD is currently under consideration.
-[https://unit.aist.go.jp/riaep/cppc/en/TDG\_Download/index.html](https://unit.aist.go.jp/riaep/cppc/en/TDG_Download/index.html)
+[https://unit.aist.go.jp/peirc/cppc/en/TDG\_Download/index.html](https://unit.aist.go.jp/peirc/cppc/en/TDG_Download/index.html)
 
 
 
